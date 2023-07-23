@@ -185,3 +185,52 @@
 // 		console.log(i);
 // 	}
 // }
+
+// Homework
+//! 2
+// a = 10
+// b = 20
+// 10 11 12 13 ... 20
+// 19 18 ... 11
+// let a = 10,
+//   b = 20;
+// for (let i = a; i <= b; i++) {
+//   console.log(i);
+// }
+//! 3
+// let a = 10, b = 20;
+// for(let i = b - 1; i > a; i--) {
+// 	console.log(i);
+// }
+
+// for(let i = 1; i < 20; i++) {
+// 	console.log(i);
+// }
+
+// let narxi = 10000;
+// 1kg => .... 10000 * 1
+// 2kg => .... 10000 * 2
+// 3kg => .... 10000 * 3
+// 4kg => ....
+// 5kg => ....
+// 6kg => ....
+// 7kg => ....
+// 8kg => ....
+// 9kg => ....
+// 10kg => .... 10000 * 10
+
+// for(let i = 1; i <= 10; i++) {
+// 	console.log(i * narxi);
+// }
+
+// let i = 1;
+// while(i <= 10) {
+// 	console.log(i * narxi);
+// 	i++;
+// }
+
+// let i = 1;
+// do {
+// 	console.log(i * narxi);
+// 	i++;
+// } while(i <= 10)
