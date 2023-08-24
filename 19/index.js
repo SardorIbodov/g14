@@ -49,3 +49,22 @@
 //   }
 //   console.log(`${h}:${m}:${s}`);
 // }, 1000);
+
+//! clearInterval, clearTimeout
+// let i = 0;
+
+// let interval = setInterval(() => {
+//   i++;
+//   console.log(i);
+// 	if(i >= 5) clearInterval(interval)
+// }, 1000);
+
+// setTimeout(() => {
+//   clearInterval(interval);
+// }, 30 * 1000);
+
+// let after2 = setTimeout(() => {
+//   console.log(2);
+// 	clearTimeout(after2);
+//   console.log(3);
+// }, 2000);
