@@ -50,3 +50,39 @@
 // user.login = "WBA";
 // delete user.password;
 // console.log(user);
+
+//! getter, setter
+// let student = {
+// 	firstName: "Muhammadjon",
+//   course: 2,
+//   major: "Frontend",
+// 	_password: 12345,
+//   get getData() {
+//     console.log(
+//       `${this.firstName} ismli student ${this.major} yo'nalishda ${this.course} kursda o'qiydi`
+//     );
+//   },
+// 	get parol() {
+// 		console.log(`${this.firstName} ismli studentni paroli: ${this._password}`);
+// 	},
+// 	set changePassword(newPassword) {
+// 		this._password = newPassword;
+// 	}
+// };
+// student.parol;
+// student.changePassword = 54321;
+// student.parol;
+
+// let uchburchak = {
+// 	tomoni: 15,
+// 	balandligi: 10,
+// 	get yuza() {
+// 		console.log(this.tomoni * this.balandligi / 2);
+// 	},
+// 	set ozgartirish(newTomoni) {
+// 		this.tomoni = newTomoni;
+// 	}
+// }
+// uchburchak.yuza; // 75
+// uchburchak.ozgartirish = 10;
+// uchburchak.yuza // 50
