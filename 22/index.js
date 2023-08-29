@@ -51,3 +51,20 @@
 // let string = new String("");
 // console.log(array instanceof Object);
 // console.log(string instanceof Object);
+
+function getData() {
+  getData.getTitle = () => {
+    console.log("webbrain");
+  };
+  // ...
+}
+getData();
+getData.getTitle();
+
+// function solution(str, ending){
+//   for(let i = 0; i < ending.length; i++) {
+//     if(str[str.length - 1 - i] !== ending[ending.length - 1 - i]) return false;
+//   }
+//   return true;
+// }
+
