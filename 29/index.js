@@ -67,4 +67,8 @@
 // let list = document.querySelector("ul");
 // list.hidden = true;
 
+//! outerHTML
+// let list = document.querySelector("ul");
+// console.log(list.outerHTML);
+
 // const reverseMessage = str => str.split(" ").reverse().map(v => v.slice(-1).toUpperCase() + v.slice(0, -1).toLowerCase().split("").reverse().join("")).join(" ")
