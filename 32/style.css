@@ -1,0 +1,45 @@
+.parent {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grandchild {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.passwordBox {
+  width: fit-content;
+  padding: 2px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.passwordBox input {
+  border: none;
+  outline: none;
+}
+
+.text {
+  color: red;
+  background-color: yellow;
+  border: 1px solid gray;
+}
+
+.size {
+  font-size: 40px;
+}
