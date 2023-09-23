@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CRUD</h1>
+    <h1>Sort</h1>
+    <select id="sort">
+      <option value="name">By name</option>
+      <option value="id" selected>By ID</option>
+      <option value="age">By age</option>
+    </select>
+    <h1>Search by name</h1>
+    <input type="text" placeholder="Type name" id="search" />
+    <h1>Add user</h1>
+    <input type="text" placeholder="type name" id="newName" />
+    <input type="number" min="0" placeholder="type age" id="newAge" />
+    <input type="text" placeholder="type phone" id="newPhone" />
+    <button id="add">Add</button>
+    <div class="content"></div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
